@@ -1,0 +1,30 @@
+{
+  "name": "bookingProxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --signal SIGTERM index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordBigglesworth/bookingProxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordBigglesworth/bookingProxy/issues"
+  },
+  "homepage": "https://github.com/LordBigglesworth/bookingProxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^1.0.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "signal": "^7.0.6"
+  }
+}
